@@ -1,3 +1,8 @@
 # NLP-to-predict-disaster-tweets
-Created a model predicting which Tweets are about real disasters and which ones are not. Implemented by cleaning the tweet text using regex and nltk python package.
-Implemented techniques such as lemmatization and stemming to extract root words from the text. Performed PoS tagging using python spaCy package and vectorized the text data using Bag of Words (Count vectorizer) and TF-IDF vecotrizer. Modeled the clean text data using Multinomial Naive Bayes Algorithm and calculated the accuracy score for the model
+• Implemented a text classifier for categorization of tweets as being associated with any real disaster or not.
+• Extracted insightful text data from a tweet data set using data wrangling techniques such as tokenization, lemmatization
+and stemming from the python nltk package
+• Performed Part of speech (POS) tagging and Named-entity recognition (NER) on tokenized text to filter words relevant
+to the classification scenario using the python spaCy package.
+• Vectorized the processed text data using CountVectorizer (Bag of Words) and TfidfVectorizer (TF-IDF) tool from the
+sklearn library and trained the data using MultinomialNB (Naive Bayes classifier).
